@@ -10,7 +10,8 @@ bind 'c' new-window -c "#{pane_current_path}"
 
 🎨 Styled with gruvbox dark <br>
 
-Create a tmux config file in
+<span style="font-size: 1.2em;">_You will need [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) for neovim and tmux to integrate smoothly_</span> <br><br>
+After installing [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator), create a tmux config file in
 
 ```sh
 ~/.config/tmux/tmux.conf
