@@ -1,6 +1,6 @@
 # TMUX Config
 
-✨ Shoutout to [Dream of Code](https://www.youtube.com/@dreamsofcode) for the config! <br>
+✨ Shoutout to [Dreams of Code](https://www.youtube.com/@dreamsofcode) for the config! <br>
 <br>
 Only thing I added was keeping the CWD when creating new window <br>
 
