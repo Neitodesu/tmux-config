@@ -2,10 +2,16 @@
 
 ✨ Shoutout to [Dreams of Code](https://www.youtube.com/@dreamsofcode) for the config! <br>
 <br>
-Only thing I added was keeping the CWD when creating new window <br>
+Only thing I added was keeping the CWD when creating new window as well as adding [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) and [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) <br>
 
 ```sh
 bind 'c' new-window -c "#{pane_current_path}"
+
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+# Enables Continnum
+set -g @continuum-restore on
 ```
 
 🎨 Styled with gruvbox dark <br>
